@@ -1,0 +1,21 @@
+{
+ "name": "eb-node-red",
+ "version": "0.0.1",
+ "description": "Node-RED for AWS Elastic Beanstalk",
+ "main": "",
+ "scripts": {
+     "start": "./node_modules/.bin/node-red -s ./settings.js"
+ },
+ "engines": {
+     "node": ">=4"
+ },
+ "dependencies": {
+     "node-red": "0.19.x",
+     "serialport": "7.1.x",
+     "aws-sdk": "2.410.x",
+     "node-red-contrib-storage-s3": "0.0.x",
+     "when": "3.7.x"
+ },
+ "author": "",
+ "license": "ISC"
+}
