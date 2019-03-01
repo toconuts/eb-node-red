@@ -21,6 +21,7 @@
 module.exports = {
     awsRegion: 'ap-southeast-1',
     awsS3Appname: 'demoapp',
+    awsS3Bucket: 'demobucket'
     storageModule: require('node-red-contrib-storage-s3'),
 
     // the tcp port that the Node-RED web server is listening on
