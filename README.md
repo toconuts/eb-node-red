@@ -58,7 +58,7 @@ $ eb create --single
 ```
 You can create a instance in your vpc
 ```sh
-$eb create --vpc.id vpc-xxxxxx --vpc.ec2subnets subnet-xxxx --vpc.publicip --vpc.elbpublic
+$ eb create --vpc.id vpc-xxxxxx --vpc.ec2subnets subnet-xxxxx,subnet-xxxxx --vpc.publicip --vpc.elbpublic
 ```
 + --vpc.publicip: EC2 will be attached to public IP
 + --vpc.elbpublic: without this option, EC2 will be created  internally
