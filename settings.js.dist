@@ -20,7 +20,7 @@
 
 module.exports = {
     awsRegion: 'ap-southeast-1',
-    awsS3Appname: 'demoapp',
+    awsS3Appname: 'eb-node-red',
     awsS3Bucket: 'demobucket',
     storageModule: require('node-red-contrib-storage-s3'),
 
