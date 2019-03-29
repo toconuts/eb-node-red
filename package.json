@@ -1,6 +1,6 @@
 {
  "name": "eb-node-red",
- "version": "0.0.1",
+ "version": "0.0.2",
  "description": "Node-RED for AWS Elastic Beanstalk",
  "main": "",
  "scripts": {
