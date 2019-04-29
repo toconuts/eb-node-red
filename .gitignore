@@ -6,3 +6,6 @@
 
 # Node-RED Files
 settings.js
+
+# SSL Files
+nodecerts/*
