@@ -4,8 +4,14 @@
 !.elasticbeanstalk/*.cfg.yml
 !.elasticbeanstalk/*.global.yml
 
+# EB Extensions
+.ebextensions/iptables.config
+
 # Node-RED Files
 settings.js
 
 # SSL Files
 nodecerts/*
+
+# etc.
+deploy.txt
