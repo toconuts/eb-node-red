@@ -7,10 +7,10 @@ If you have not created EB yet I strongly recommend to do the followings tutoria
 
 [Getting Started Using Elastic Beanstalk - AWS Elastic Beanstalk](https://docs.aws.amazon.com/elasticbeanstalk/latest/dg/GettingStarted.html)
 
-### Add AWS S3 Full Access Role to aws-elasticbeanstalk-ec2-role
+### Add AWS S3 Full Access policy to aws-elasticbeanstalk-ec2-role
 Login to the AWS Console on your browser, select Identity and Access Management (IAM) and add the AmazonS3FullAccess policy to the aws-elasticbeanstalk-ec2-role.
 
-## How to create node-RED using Elastic Beanstalk
+## How to create Node-RED using Elastic Beanstalk
 ### Clone project
 First of all, you get eb-node-red project from github in your working directory.
 ```sh
