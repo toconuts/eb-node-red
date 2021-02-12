@@ -16,7 +16,8 @@
      "node-red-contrib-storage-s3": "0.0.x",
      "when": "3.7.x",
      "node-red-contrib-influxdb": "^0.4.0",
-     "node-red-contrib-thingrest": "^1.0.1"
+     "node-red-contrib-thingrest": "^1.0.1",
+     "node-red-contrib-modbus": "4.x"
  },
  "author": "",
  "license": "ISC"
